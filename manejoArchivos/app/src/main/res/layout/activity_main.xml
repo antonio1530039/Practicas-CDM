@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="dispositivosmovilesmayago2018.upvictoria.com.manejoarchivos_demo_2018.MainActivity">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+
+            >
+            <Button
+                android:id="@+id/button_agregar_lista"
+                android:text="Agregar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/button_eliminar_lista"
+                android:text="Editar"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/button_guardar_cambios"
+                android:text="Guardas"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/button_salir"
+                android:text="Salir"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:inputType="textCapCharacters"
+            android:hint="Ingresar Nombre Archivo"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/editText1" />
+
+        <TextView
+            android:text="Lista de Archivos .TXT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:isScrollContainer="true"
+            android:enabled="false"
+            android:background="#FF00FF00"
+            android:id="@+id/editText2" />
+
+        <TextView
+            android:text="Contenido Selección Actual"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:background="#FFFF0000"
+            android:isScrollContainer="true"
+            android:enabled="true"
+            android:id="@+id/editText3" />
+
+
+    </LinearLayout>
+
