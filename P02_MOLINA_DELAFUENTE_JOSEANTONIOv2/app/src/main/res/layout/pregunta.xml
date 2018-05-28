@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pregunta_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Pregunta"
+            android:inputType="textCapCharacters"/>
+
+
+        <EditText
+            android:id="@+id/respuesta1_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Respuesta 1"
+            android:inputType="textCapCharacters"/>
+
+
+        <EditText
+            android:id="@+id/respuesta2_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Respuesta 2"
+            android:inputType="textCapCharacters"/>
+
+
+        <EditText
+            android:id="@+id/respuesta3_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Respuesta 3"
+            android:inputType="textCapCharacters"/>
+
+        <EditText
+            android:id="@+id/respuesta4_txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Respuesta 4"
+            android:inputType="textCapCharacters"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/guardar_pregunta_btn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text=" Guardar pregunta"
+            />
+        <Button
+            android:id="@+id/confirmar_encuesta_btn"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Guardar preguntas y cerrar"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
